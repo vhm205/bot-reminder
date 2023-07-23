@@ -2,7 +2,7 @@ import json
 import requests
 import os
 import dotenv
-from utils.custom_logging import setup_logger
+from utils.logging import setup_logger
 
 dotenv.load_dotenv()
 

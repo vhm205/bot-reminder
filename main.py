@@ -1,6 +1,6 @@
 import telegram_bot
 import random
-from utils.custom_logging import setup_logger
+from utils.logging import setup_logger
 
 logger = setup_logger(__name__, True)
 
@@ -26,12 +26,12 @@ def drink_water():
     telegram_bot.send_message(message)
     logger.info('Send reminder successfully!!')
 
-# schedule.every(5).seconds.do(drink_water)
-
 
 if __name__ == '__main__':
     print('Scheduling for reminder...')
     drink_water()
+
+    # schedule.every(5).seconds.do(drink_water)
 
     # while True:
     #     schedule.run_pending()
