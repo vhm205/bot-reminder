@@ -2,11 +2,11 @@ import json
 import requests
 import os
 import dotenv
-from utils.custom_logging import get_logger
+from utils.custom_logging import setup_logger
 
 dotenv.load_dotenv()
 
-logger = get_logger(__name__)
+logger = setup_logger(__name__, True)
 
 telegram_api = 'https://api.telegram.org'
 telegram_channel = os.environ['CHANNEL_NAME']

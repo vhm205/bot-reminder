@@ -1,5 +1,6 @@
 import coloredlogs
 import logging
+import logging.handlers
 import json
 
 # By default the install() function installs a handler on the root logger,
@@ -13,10 +14,24 @@ import json
 # coloredlogs.install(level='DEBUG', logger=logger)
 
 
-def get_logger(name, level=logging.DEBUG):
+def setup_logger(name, write_to_file=False):
+    level = logging.DEBUG
     logger = logging.getLogger(name)
-    coloredlogs.install(level=level, logger=logger)
+    logger.setLevel(level)
 
+    if write_to_file:
+        logger_file_handler = logging.handlers.RotatingFileHandler(
+            "logs/status.log",
+            maxBytes=1024 * 1024,
+            backupCount=1,
+            encoding="utf8",
+        )
+        formatter = logging.Formatter(
+            "%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+        logger_file_handler.setFormatter(formatter)
+        logger.addHandler(logger_file_handler)
+
+    coloredlogs.install(level=level, logger=logger)
     return logger
 
 

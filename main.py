@@ -1,5 +1,8 @@
 import telegram_bot
 import random
+from utils.custom_logging import setup_logger
+
+logger = setup_logger(__name__, True)
 
 messages = (
     "Uống nước đi bạn gì ơi!",
@@ -21,6 +24,7 @@ def drink_water():
     sticker_id = random.choice(stickers)
     telegram_bot.send_sticker(sticker_id)
     telegram_bot.send_message(message)
+    logger.info('Send reminder successfully!!')
 
 # schedule.every(5).seconds.do(drink_water)
 
