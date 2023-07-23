@@ -1,10 +1,11 @@
 import json
 import requests
 import os
-import env
+import dotenv
 from utils.custom_logging import get_logger
 
-env.set_default()
+dotenv.load_dotenv()
+
 logger = get_logger(__name__)
 
 telegram_api = 'https://api.telegram.org'

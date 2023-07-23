@@ -206,7 +206,6 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-env.py
 logs
 
 **/.DS_Store
