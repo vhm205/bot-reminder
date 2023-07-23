@@ -1,4 +1,4 @@
-import schedule
+# import schedule
 import time
 import random
 import telegram_bot
@@ -26,13 +26,14 @@ def drink_water():
     telegram_bot.send_message(message)
 
 
-schedule.every(5).seconds.do(drink_water)
+# schedule.every(5).seconds.do(drink_water)
 print('Scheduling for reminder...')
 
 if __name__ == '__main__':
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    drink_water()
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)
 
     # loop = asyncio.get_event_loop()
     # loop.run_until_complete(drink_water())
