@@ -21,7 +21,7 @@ def setup_logger(name, write_to_file=False):
 
     if write_to_file:
         logger_file_handler = logging.handlers.RotatingFileHandler(
-            "logs/status.log",
+            "status.log",
             maxBytes=1024 * 1024,
             backupCount=1,
             encoding="utf8",
