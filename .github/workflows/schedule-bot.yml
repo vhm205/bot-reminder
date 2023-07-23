@@ -5,7 +5,7 @@ name: Python bot reminder
 
 on:
   schedule:
-    - cron: '*/1 * * * *' # Every 30 minutes
+    - cron: '*/5 * * * *' # Every 30 minutes
 
 permissions:
   contents: read
