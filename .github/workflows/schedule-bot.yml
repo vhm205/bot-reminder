@@ -7,9 +7,6 @@ on:
   schedule:
     - cron: '*/30 7-21 * * *' # Every 30 minutes, between 07:00 AM and 09:59 PM
 
-permissions:
-  contents: read
-
 jobs:
   build:
 
