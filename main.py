@@ -22,7 +22,7 @@ stickers = (
 def drink_water():
     message = random.choice(messages)
     sticker_id = random.choice(stickers)
-    # telegram_bot.send_sticker(sticker_id)
+    telegram_bot.send_sticker(sticker_id)
     telegram_bot.send_message(message)
     logger.info('Send reminder successfully!!')
 
