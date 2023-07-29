@@ -5,11 +5,11 @@ name: Python bot reminder
 
 on:
   schedule:
-    - cron: '*/40 0-14 * * *' # Every 30 minutes, between 07:00 AM and 09:59 PM (converted to UTC)
+    - cron: '*/30 0-14 * * *' # Every 30 minutes, between 07:00 AM and 09:59 PM (converted to UTC)
 
 jobs:
   build:
-
+    if: ${{ false }}
     runs-on: ubuntu-latest
 
     steps:
