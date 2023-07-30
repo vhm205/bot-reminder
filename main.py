@@ -19,7 +19,7 @@ stickers = (
 )
 
 
-def drink_water():
+def remind_drink_water():
     message = random.choice(messages)
     sticker_id = random.choice(stickers)
     telegram_bot.send_sticker(sticker_id)
@@ -29,7 +29,7 @@ def drink_water():
 
 if __name__ == '__main__':
     print('Scheduling for reminder...')
-    drink_water()
+    remind_drink_water()
 
     # schedule.every(5).seconds.do(drink_water)
 
