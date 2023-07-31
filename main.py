@@ -9,7 +9,6 @@ messages = (
     "Da của bạn đang khô queo lại đó, uống nước nào",
     "Có thể bạn chưa biết, một ngụm nước có thể tăng độ cute của bạn lên đó",
     "Tới giờ húp nước ròi bạn gì đó ơi",
-    "Bật nắp ly nước, sảng khoái cực đỉnh, uống ngay nào!"
 )
 
 stickers = (
