@@ -6,15 +6,22 @@ logger = setup_logger(__name__, True)
 
 messages = (
     "Uống nước đi bạn gì ơi!",
-    "Da của bạn đang khô queo lại đó, uống nước nào",
+    "Da của bạn đang khô queo lại đó, uống nước nào!",
     "Có thể bạn chưa biết, một ngụm nước có thể tăng độ cute của bạn lên đó",
-    "Tới giờ húp nước ròi bạn gì đó ơi",
+    "Tới giờ uống nước ròi bạn gì đó ơi",
+    "Bạn cute ơi uống nước i!!",
+    "Nếu bạn đang khó chịu vì tui nhắc quá nhìu... thì kệ bạn chứ tui sẽ khum dừng lại đâu",
+    "Đứng lên đi lại cho khỏe khoắn nào!",
+    "Hít 5s, giữ 5s, thở 5s 💪"
 )
 
 stickers = (
     "CAACAgUAAxkBAAEJxdhku6dZlaEMVCOQaxxg5ph0fVwRlwAC8ggAAse52FVFe-rjvHer6C8E",
     "CAACAgUAAxkBAAEJxdxku6s816185LClmRoT7LJI7lIp8gAC7QgAAqh84FX-jP-3qYEqvC8E",
-    "CAACAgUAAxkBAAEJxeZku7ECHzaZxfGb2Y5tezpVRBr2rAAC5AkAAsPm4FX6C_eHYaJNfC8E"
+    "CAACAgUAAxkBAAEJxeZku7ECHzaZxfGb2Y5tezpVRBr2rAAC5AkAAsPm4FX6C_eHYaJNfC8E",
+    "CAACAgUAAxkBAAEJ7TZkzgGSsFhRwRtAMY-9qAQaHoSjvwAClgkAAnjYcVZTDtTfvklieS8E",
+    "CAACAgUAAxkBAAEJ7ThkzgGjsC40g-ygiyfbBldCGr0JDwACvgcAAtvDcFZSPOS2l3vEdy8E",
+    "CAACAgUAAxkBAAEJ7TpkzgGs5ZxbuDQNYF7pqSXmpavnRAAC2gkAAs9DcFak0qJqpBKVHC8E"
 )
 
 
