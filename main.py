@@ -10,7 +10,7 @@ messages = (
     "Có thể bạn chưa biết, một ngụm nước có thể tăng độ cute của bạn lên đó",
     "Tới giờ uống nước ròi bạn gì đó ơi",
     "Bạn cute ơi uống nước i!!",
-    "Nếu bạn đang khó chịu vì tui nhắc quá nhìu... thì kệ bạn chứ tui sẽ khum dừng lại đâu",
+    # "Nếu bạn đang khó chịu vì tui nhắc quá nhìu... thì kệ bạn chứ tui sẽ khum dừng lại đâu",
     "Đứng lên đi lại cho khỏe khoắn nào!",
     "Hít 5s, giữ 5s, thở 5s 💪"
 )
