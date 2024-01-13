@@ -7,10 +7,10 @@ name = "pypi"
 schedule = "*"
 requests = "*"
 python-telegram-bot = "*"
+python-dotenv = "*"
 
 [dev-packages]
 coloredlogs = "*"
-python-dotenv = "*"
 
 [requires]
 python_version = "3.11"

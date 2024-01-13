@@ -1,13 +1,14 @@
 import json
 import requests
 import os
-import dotenv
+from dotenv import load_dotenv
 from utils.logging import setup_logger
 
-dotenv.load_dotenv()
+load_dotenv()
 
 logger = setup_logger(__name__, True)
 
+os.environ['TZ'] = 'Asia/Ho_Chi_Minh'
 telegram_api = 'https://api.telegram.org'
 telegram_channel = os.environ['CHANNEL_NAME']
 telegram_chat_id = os.environ['BOT_CHAT_ID']
